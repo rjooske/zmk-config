@@ -8,6 +8,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define SHL LEFT_SHIFT
+#define SHR RIGHT_SHIFT
+#define CNL LEFT_CONTROL
+#define CNR RIGHT_CONTROL
+#define ALL LEFT_ALT
+#define ALR RIGHT_ALT
+#define GUL LEFT_GUI
+#define GUR RIGHT_GUI
 
 &mt {
     // flavor = "tap-preferred";
