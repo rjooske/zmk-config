@@ -27,18 +27,10 @@
 
 / {
     behaviors {
-        nrb_l: none_reset_bootloader_left {
+        nrb: none_reset_bootloader {
             compatible = "zmk,behavior-tap-dance";
             label = "NONE_RESET_BOOTLOADER";
-            #binding-cells = <31>;
-            tapping-term-ms = <1000>;
-            bindings = <&none>, <&reset>, <&bootloader>;
-        };
-
-        nrb_r: none_reset_bootloader_right {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NONE_RESET_BOOTLOADER";
-            #binding-cells = <32>;
+            #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&none>, <&reset>, <&bootloader>;
         };
