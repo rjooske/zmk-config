@@ -27,7 +27,7 @@
             label = "NONE_RESET_BOOTLOADER";
             tapping-term-ms = <1000>;
             bindings = <&none>, <&reset>, <&bootloader>;
-        }
+        };
     };
 
     combos {
