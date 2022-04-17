@@ -25,6 +25,7 @@
         nrb: none_reset_bootloader {
             compatible = "zmk,behavior-tap-dance";
             label = "NONE_RESET_BOOTLOADER";
+            #binding-cells = <0>;
             tapping-term-ms = <1000>;
             bindings = <&none>, <&reset>, <&bootloader>;
         };
