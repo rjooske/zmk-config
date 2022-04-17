@@ -28,7 +28,7 @@
             tapping-term-ms = <1000>;
             bindings = <&none>, <&reset>, <&bootloader>;
         }
-    }
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -111,10 +111,10 @@
 
         layer_0 {
             bindings = <
-                &kp Y   &kp C   &kp L   &kp M   &kp K      &kp Z   &kp F   &kp U   &kp COM &kp SQT
-                &kp I   &kp S   &kp R   &kp T   &kp G      &kp P   &kp N   &kp E   &kp A   &kp O
-                &kp Q   &kp V   &kp W   &kp D   &kp J      &kp B   &kp H   &kp SLF &kp DOT &kp X
-                                        &mo 1   &kp RET    &kp SPC &mo 2
+                &kp Y   &kp C   &kp L   &kp M   &kp K       &kp Z   &kp F   &kp U   &kp COM &kp SQT
+                &kp I   &kp S   &kp R   &kp T   &kp G       &kp P   &kp N   &kp E   &kp A   &kp O
+                &kp Q   &kp V   &kp W   &kp D   &kp J       &kp B   &kp H   &kp SLF &kp DOT &kp X
+                                        &mo 1   &kp RET     &kp SPC &mo 2
             >;
         };
 
