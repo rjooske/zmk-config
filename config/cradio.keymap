@@ -27,10 +27,18 @@
 
 / {
     behaviors {
-        nrb: none_reset_bootloader {
+        nrb_l: none_reset_bootloader_left {
             compatible = "zmk,behavior-tap-dance";
             label = "NONE_RESET_BOOTLOADER";
-            #binding-cells = <0>;
+            #binding-cells = <31>;
+            tapping-term-ms = <1000>;
+            bindings = <&none>, <&reset>, <&bootloader>;
+        };
+
+        nrb_r: none_reset_bootloader_right {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NONE_RESET_BOOTLOADER";
+            #binding-cells = <32>;
             tapping-term-ms = <1000>;
             bindings = <&none>, <&reset>, <&bootloader>;
         };
@@ -147,7 +155,7 @@
                 &kp NUM_1   &kp NUM_2   &kp NUM_3   &kp NUM_4   &kp NUM_5       &trans      &trans      &trans      &trans      &trans
                 &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &trans      &trans      &trans      &trans      &trans
                 &bt BTC     &bt BTN     &bt BTP     &bt BTS 0   &kp F7          &trans      &trans      &trans      &trans      &trans
-                                                    &trans      &nrb_l          &nrb_r      &trans
+                                                    &trans      &nrb            &nrb        &trans
             >;
         };
     };
