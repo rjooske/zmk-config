@@ -109,7 +109,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        layer_0 {
             bindings = <
                 &kp Y   &kp C   &kp L   &kp M   &kp K      &kp Z   &kp F   &kp U   &kp COM &kp SQT
                 &kp I   &kp S   &kp R   &kp T   &kp G      &kp P   &kp N   &kp E   &kp A   &kp O
@@ -118,7 +118,7 @@
             >;
         };
 
-        left_layer {
+        layer_1 {
             bindings = <
                 &kp NUM_1 &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0
                 &kp TAB &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH  &kp MINUS &kp ARL &kp ARD &kp ARU  &kp ARR
@@ -127,7 +127,7 @@
             >;
         };
 
-        right_layer {
+        layer_2 {
             bindings = <
                 &kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT     &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN
                 &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN  &kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
@@ -136,7 +136,7 @@
             >;
         };
 
-        tri_layer {
+        layer_3 {
             bindings = <
                 &kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5  &trans &trans   &trans   &trans  &trans
                 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans
