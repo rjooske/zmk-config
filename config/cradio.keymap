@@ -110,28 +110,28 @@
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
-        );
+        )
 
         ZMK_MACRO(
             down_5,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN>;
-        );
+        )
 
         ZMK_MACRO(
             up_5,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&kp UP &kp UP &kp UP &kp UP &kp UP>;
-        );
+        )
 
         ZMK_MACRO(
             right_5,
             wait-ms = <10>;
             tap-ms = <10>;
             bindings = <&kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT>;
-        );
+        )
     };
 
     keymap {
